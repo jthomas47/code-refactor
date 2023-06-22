@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed to header and got rid of class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed div to nav */
+/* changed nav and got rid of class */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,12 +36,12 @@ header nav {
 }
 
 
-/* changed div to nav */
+
 header nav ul {
     list-style-type: none;
 }
 
-/* changed div to nav */
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -76,13 +77,15 @@ p {
     
 }
 
+/* changed to main and got rid of class */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
- .benefits  {
+/* changed to aside and got rid of class */
+ aside  {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -96,56 +99,26 @@ main {
 
 
 
-
-.benefit-lead {
+/* added section, changed the class name to subsection2 and consolidated repeated code */
+.subsection2 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.subsection2 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.subsection2 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.subsection {
+/* added section, changed the class name to subsection1 and consolidated repeated code */
+.subsection1 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -155,25 +128,25 @@ main {
 }
 
 
-.subsection img {
+.subsection1 img {
     max-height: 200px;
 }
 
 
-.subsection h2 {
+.subsection1 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-
-.footer {
+/* got rid of class */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
